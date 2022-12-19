@@ -1,0 +1,22 @@
+{
+  "name": "com.starting",
+  "version": "1.0.0",
+  "description": "primeiro commit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrianofranca111/node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adrianofranca111/node/issues"
+  },
+  "homepage": "https://github.com/adrianofranca111/node#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
