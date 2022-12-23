@@ -5,12 +5,23 @@ app.get("/", function(req, res){
     res.send("Funcionou meu patrão");
 });
 
-app.get("/blog", function(req, res){
-    res.send("www.twitter.com/");
+app.get("/blog/:artigo?", function(req, res){
+
+    var artigo = req.params.artigo;
+
+    if(artigo){
+        res.send("www.instagram.com/");
+    }else{
+        res.send("www.twitter.com/");
+    }
 });
 
 app.get("/canal/youtube", function(req, res){
     res.send("www.youtube.com/");
+});
+
+app.get("/ola/:nome", function(req, res){
+    res.send("<h1>oi</h1>");
 });
 
 app.listen(3030, function(erro){
